@@ -1,0 +1,7 @@
+.header_esp, .header_eng {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+    align-items: flex-end;
+}
