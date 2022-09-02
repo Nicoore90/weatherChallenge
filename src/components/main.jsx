@@ -33,9 +33,14 @@ export function Main() {
         console.log(long)
     }*/
 
-    function handleLondon() {
+    /*function handleLondon() {
         lat=51
         long=7
+        fetch("https://api.openweathermap.org/data/3.0/onecall?lat=51&lon=7&units=metric&appid=94d76cede76928778bd75e39b3d98944")
+        .then((response) => response.json())
+        .then((weather) => {
+            setWeather(weather)
+        })
     }
 
     function handleMadrid() {
@@ -75,11 +80,11 @@ export function Main() {
         )}
     
     </>)*/
-    return(
+    /*return(
         <>
             <button onClick={handleLondon}>London</button>
             <button onClick={handleMadrid}>Madrid</button>
             <button onClick={handleRome}>Rome</button>
         </>
-    )
+    )*/
 }
